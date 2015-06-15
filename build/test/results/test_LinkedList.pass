@@ -4,29 +4,77 @@
   :file: test_LinkedList.c
 :successes:
 - :test: test_LinkedList_should_return_head_and_tail_be_NULL_or_0
-  :line: 12
+  :line: 13
   :message: ''
-- :test: test_ListElement_should_return_next_as_NULL_and_value_as_1
-  :line: 20
+- :test: test_ListElement_should_return_next_as_0_and_value_as_1
+  :line: 21
   :message: ''
 - :test: test_LinkedList_given_1_should_return_both_head_and_tail_as_1
-  :line: 27
+  :line: 29
   :message: ''
 - :test: test_LinkedList_given_1_and_3_should_return_head_as_1_and_tail_as_3
-  :line: 38
+  :line: 43
   :message: ''
 - :test: test_LinkedList_given_1_3_4_should_return_head_as_1_and_tail_as_4
-  :line: 51
+  :line: 57
   :message: ''
 - :test: test_LinkedList_given_a_should_return_head_and_tail_as_a
-  :line: 65
+  :line: 74
+  :message: ''
+- :test: test_LinkedList_given_an_array_6_7_8_9_should_return_head_as_6_and_tail_as_9
+  :line: 88
+  :message: ''
+- :test: test_LinkedList_user_given_5_numbers_should_return_5_numbers
+  :line: 109
   :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 6
-  :passed: 6
+  :total: 8
+  :passed: 8
   :failed: 0
   :ignored: 0
 :stdout:
+- 'Head: 0'
+- 'Tail: 0'
+- ''
+- 'Next: 0'
+- 'Value: 1'
+- ''
+- 'Head: 1'
+- 'Tail: 1'
+- 'NextEnd: 0'
+- ''
+- 'Head: 1'
+- 'Tail: 3'
+- 'NextEnd: 0'
+- ''
+- 'Head: 1'
+- 'Next: 3'
+- 'Tail: 4'
+- 'NextEnd: 0'
+- ''
+- 'Head: a'
+- 'Tail: a'
+- 'NextEnd: 0'
+- ''
+- 'Head: 6'
+- 'Next1: 7'
+- 'Next2: 8'
+- 'Tail: 9'
+- 'NextEnd: 0'
+- ''
+- Please enter 5 numbers
+- 'Number[1]: 4'
+- 'Number[2]: 1'
+- 'Number[3]: 2'
+- 'Number[4]: 3'
+- 'Number[5]: 77'
+- ''
+- 'Head: 4'
+- 'Next1: 1'
+- 'Next2: 2'
+- 'Next3: 3'
+- 'Tail: 77'
+- 'NextEnd: 0'
 - ''
